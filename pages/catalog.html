@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/catalog.css">
+    <title>Каталог</title>
+</head>
+<body>
+<header id="header"></header>
+
+<main>
+    <div class="catalog wrapper">
+        <div id="breadcrumbs"></div>
+        <div class="all_ready_have_iphone_mobile">
+            <div class="all_ready_have_iphone_inner">
+                <div class="head_all_ready_have_iphone">У вас уже есть яблоко?</div>
+                <div class="text_all_ready_have_iphone text_s">
+                    Рассчитайте стоимость своего устройства, чтобы видеть цены с учетом скидки
+                </div>
+            </div>
+            <button class="btn_all_ready_have_iphone" type="submit"><span class="h5">Рассчитать стоимость онлайн</span></button>
+        </div>
+        <div class="catalog_info">
+            <aside>
+                <span class="h4">
+                    Фильтры
+                </span>
+                <div class="all_ready_have_iphone">
+                    <div class="all_ready_have_iphone_inner">
+                        <div class="head_all_ready_have_iphone">У вас уже есть яблоко?</div>
+                        <div class="text_all_ready_have_iphone text_s">
+                            Рассчитайте стоимость своего устройства, чтобы видеть цены с учетом скидки
+                        </div>
+                    </div>
+                    <button class="btn_all_ready_have_iphone" type="submit"><span class="h5">Рассчитать стоимость онлайн</span>
+                    </button>
+                </div>
+                <div class="filters">
+                    <div class="model">
+                        <span class="h5">Модель iPhone</span>
+                        <form name="state">
+                            <input type="checkbox" class="custom-checkbox" name="state" id="iphone_x">
+                            <label for="iphone_x"><span class="h6 medium">iPhone X</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="state" id="iphone_x2">
+                            <label for="iphone_x2"><span class="h6 medium">iPhone X</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="state" id="iphone_xs">
+                            <label for="iphone_xs"><span class="h6 medium">iPhone Xs</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="state" id="iphone_xr">
+                            <label for="iphone_xr"><span class="h6 medium">iPhone Xr</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="state" id="iphone_xs_max" checked>
+                            <label for="iphone_xs_max"><span class="h6 medium">iPhone Xs Max</span></label>
+                        </form>
+                    </div>
+                    <div class="state">
+                        <span class="h5">Состояние</span>
+                        <form name="state">
+                            <input type="checkbox" class="custom-checkbox" name="state" id="new">
+                            <label for="new"><span class="h6 medium">Новый</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="state" id="perfect">
+                            <label for="perfect"><span class="h6 medium">Отличное</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="state" id="good">
+                            <label for="good"><span class="h6 medium">Хорошее</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="state" id="not_bad">
+                            <label for="not_bad"><span class="h6 medium">Приемлемое</span></label>
+                        </form>
+                    </div>
+                    <div class="color">
+                        <span class="h5">Цвет</span>
+                        <form name="color">
+                            <input type="checkbox" class="custom-checkbox" name="color" id="white">
+                            <label for="white">
+                                <div class="phone_color_filter">
+                                    <img src="/icons/black_circle.svg" alt="">
+                                    <span class="h6 medium">iPhone 8</span>
+                                </div>
+                            </label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="color" id="black">
+                            <label for="black">
+                                <div class="phone_color_filter">
+                                    <img src="/icons/black_circle.svg" alt="">
+                                    <span class="h6 medium">iPhone 8</span></div>
+                            </label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="color" id="red">
+                            <label for="red">
+                                <div class="phone_color_filter">
+                                    <img src="/icons/black_circle.svg" alt="">
+                                    <span class="h6 medium">iPhone 8</span></div>
+                            </label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="color" id="blue">
+                            <label for="blue">
+                                <div class="phone_color_filter">
+                                    <img src="/icons/black_circle.svg" alt="">
+                                    <span class="h6 medium">iPhone 8</span></div>
+                            </label>
+                        </form>
+                    </div>
+                    <div class="memory">
+                        <span class="h5">Объем памяти</span>
+                        <form name="memory">
+                            <input type="checkbox" class="custom-checkbox" name="memory" id="64">
+                            <label for="64"><span class="h6 medium">64 гб</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="memory" id="128">
+                            <label for="128"><span class="h6 medium">128 гб</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="memory" id="256">
+                            <label for="256"><span class="h6 medium">256 гб</span></label>
+                            <img src="/icons/filters_extractor.svg" alt="">
+                            <input type="checkbox" class="custom-checkbox" name="memory" id="512">
+                            <label for="512"><span class="h6 medium">512 гб</span></label>
+                        </form>
+                    </div>
+                </div>
+            </aside>
+            <div class="catalog_body">
+                <div class="status_filter">
+                    <div class="filters_buttons">
+                        <div class="dropdown-container">
+                            <div>
+                                <button aria-expanded="false" aria-haspopup="true" class="menu-button" id="menu-button"
+                                        type="button">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <rect width="24" height="25" fill="url(#pattern0_23_2)"/>
+                                        <defs>
+                                            <pattern id="pattern0_23_2" patternContentUnits="objectBoundingBox"
+                                                     width="1" height="1">
+                                                <use xlink:href="#image0_23_2" transform="scale(0.0416667 0.04)"/>
+                                            </pattern>
+                                            <image id="image0_23_2" width="24" height="25" preserveAspectRatio="none"
+                                                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFiSURBVHgB7ZQ7TsNAEIZnYxABUSwICdKZCtLBDeIbpKQMN+AGcAOOEI4AJwg3wBVEosjSIQJikUBxiniZ8WO1CV4/CKnIL43W8Yy/39mZNcCC5cAc4nuH5/WN7a3g661vq2HwSyHcxWWAIeRzf99WV4MFa2nwdwbY1Bbfbb7T5GTmuct54+AO8wO6rmwQiSl68GLWJAKur/VAsSP6LaWQaa70OQg+X0V9c+cJL9sYLeJiEFDCqnOSwAWGh7XaoPI5wLfv4NLNSAmC45kQ5s1aAayb7Kub3kPAFS6nZeAklgfHpWMDGP9E2OBWgxk45Ji4EATSbGqhgYYrFj8UT47AcKHgbbM01QPeaF5qeMg8hMcmodMGpfzEpGf2pLRBNMtKnaVwObz3dZUTShiPPW0SxvNeySDax8nk+AfczJMJbdHLwzWU1MoUZPjo5xUnzbyFClp+ruc0YOwGaPZHow/4t/oGxn+WrkaPSDwAAAAASUVORK5CYII="/>
+                                        </defs>
+                                    </svg>
+                                    <span id="selected-option-text"><span class="h5">Сначала популярные</span></span>
+                                </button>
+                            </div>
+                            <div aria-labelledby="menu-button" aria-orientation="vertical" class="dropdown-menu hidden"
+                                 id="dropdown-menu"
+                                 role="menu" tabindex="-1">
+                                <div class="menu-items" role="none">
+                                    <button class="menu-item" data-value="Сначала популярные" id="menu-item-0"
+                                            role="menuitem" tabindex="-1"
+                                            type="button">
+                                        <span class="h6">Сначала популярные</span>
+                                    </button>
+                                    <button class="menu-item" data-value="Сначала непопулярные" id="menu-item-1"
+                                            role="menuitem" tabindex="-1"
+                                            type="button">
+                                        <span class="h6">Сначала непопулярные</span>
+                                    </button>
+                                    <button class="menu-item" data-value="Сначала красивые" id="menu-item-2"
+                                            role="menuitem" tabindex="-1"
+                                            type="button">
+                                        <span class="h6">Сначала красивые</span>
+                                    </button>
+                                    <button class="menu-item" data-value="Потом некрасивые" id="menu-item-3"
+                                            role="menuitem" tabindex="-1"
+                                            type="button">
+                                        <span class="h6">Потом некрасивые</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="filter_method" type="submit">
+                            <img src="../icons/Filter%20button.svg" alt="filter"><span class="h5">Фильтр</span>
+                        </button>
+                    </div>
+                    <div class="filters_panel">
+                        <div class="choice_filters">
+                            <div class="filter">
+                                <span class="h6">11 месяцев</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 8L16 16M16 8L8 16" stroke="#101828" stroke-width="2"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="filter">
+                                <span class="h6">Белый</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 8L16 16M16 8L8 16" stroke="#101828" stroke-width="2"
+                                           stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="filter">
+                                <span class="h6">Белый</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 8L16 16M16 8L8 16" stroke="#101828" stroke-width="2"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="filter">
+                                <span class="h6">128 GB</span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 8L16 16M16 8L8 16" stroke="#101828" stroke-width="2"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <button class="btn_reset_filter" type="button">
+                            <span class="h6">Сбросить все фильтры</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 8.4H8.11111M8.11111 8.4H17M8.11111 8.4L9.11111 16.8C9.11111 17.1183 9.22817 17.4235 9.43655 17.6485C9.64492 17.8736 9.92754 18 10.2222 18H13.7778C14.0725 18 14.3551 17.8736 14.5635 17.6485C14.7718 17.4235 14.8889 17.1183 14.8889 16.8L15.8889 8.4H8.11111ZM9.77778 8.4V6.2C9.77778 5.88174 9.89484 5.57652 10.1032 5.35147C10.3116 5.12643 10.5942 5 10.8889 5H13.1111C13.4058 5 13.6884 5.12643 13.8968 5.35147C14.1052 5.57652 14.2222 5.88174 14.2222 6.2V8.4"
+                                      stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="catalog_items">
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                    <div class="catalog_item">
+                        <img class="catalog_item_img" src="../images/iphone_blue_popular_goods.png" alt="iphoneblue">
+                        <div class="catalog_item_text">
+                            <span  class="h4">iPhone 12</span>
+                            <div class="option_choice">
+                                <div class="memory_choice">
+                                    <a href="" class="size"><span class="h6">128 GB</span></a>
+                                    <a href="" class="size"><span class="h6">256 GB</span></a>
+                                    <a href="" class="size"><span class="h6">512 GB</span></a>
+                                    <a href="" class="size"><span class="h6">1024 GB</span></a>
+                                </div>
+                                <div class="color_choice">
+                                    <a href="" class="color_option black"></a>
+                                    <a href="" class="color_option blue"></a>
+                                    <a href="" class="color_option green"></a>
+                                    <a href="" class="color_option orange"></a>
+                                    <a href="" class="color_option white"></a>
+                                    <a href="" class="color_option pink"></a>
+                                </div>
+                            </div>
+                            <div class="buy">
+                                <div class="buy_with_resty">
+                                    <div class="from">
+                                        <span class="h6 medium">Купить с Resty</span>
+                                        <span class="h4">от 90 BYN</span>
+                                    </div>
+                                    <div class="period">
+                                        <span class="h6 medium">11 месяцев</span>
+                                    </div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="buy_now">
+                                    <span class="h6 medium">Купить сразу&nbsp;</span><span class="h5">от 1200 BYN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn_catalog_item text_white" type="submit"><span class="h5">Смотреть</span></button>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <button class="btn_pagination" type="submit"><span class="h5">Показать еще</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="how_resty_work"></div>
+    <div id="accessories"></div>
+    <div id="promo"></div>
+</main>
+
+<footer id="footer"></footer>
+<script src="/script.js"></script>
+</body>
+</html>

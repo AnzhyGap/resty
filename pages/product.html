@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/product.css">
+    <title>Продукт</title>
+</head>
+<body>
+<header id="header"></header>
+<main>
+    <div class="product wrapper">
+        <div class="product_item">
+            <div class="product_image">
+                <div class="main_img">
+                    <img src="../images/product_main_phone.png" alt="phone">
+                </div>
+                <div class="other_img">
+                    <form name="img">
+                        <input type="radio" name="img" id="img" checked>
+                        <label for="img">
+                            <img src="../images/product_other_phone.png" alt="">
+                        </label>
+                        <input type="radio" name="img" id="img1">
+                        <label for="img1">
+                            <img src="../images/product_other_phone.png" alt="">
+                        </label><input type="radio" name="img" id="img2">
+                        <label for="img2">
+                            <img src="../images/product_other_phone.png" alt="">
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="right_side">
+                <div id="breadcrumbs"></div>
+                <div class="product_characteristics">
+                    <div class="price">
+                        <h3>90 руб. в месяц</h3>
+                        <button class="btn_price" type="submit"><span class="h6">11 месяцев</span></button>
+                    </div>
+                    <div class="payment">
+                        <span class="h5">Способ покупки</span>
+                        <div class="method_payment">
+                            <div class="select">
+                                <form class="select_radio" name="select">
+                                    <input type="radio" name="select" id="btn1" checked>
+                                    <label class="label_s" for="btn1">
+                                        <div class="radio_select_list">
+                                            <span class="h5">Купить с Resty</span>
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="select" id="btn2">
+                                    <label class="label_s" for="btn2">
+                                        <div class="radio_your_device">
+                                            <span class="h5">Купить сразу</span>
+                                        </div>
+                                    </label>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all_ready_have_iphone_mobile">
+                        <div class="all_ready_have_iphone_inner">
+                            <div class="head_all_ready_have_iphone">У вас уже есть яблоко?</div>
+                            <div class="text_all_ready_have_iphone text_s">
+                                Рассчитайте стоимость своего устройства чтобы видеть цены с учетом скидки
+                            </div>
+                        </div>
+                        <button class="btn_all_ready_have_iphone" type="submit"><span class="h5">Рассчитать стоимость онлайн</span>
+                        </button>
+                    </div>
+                    <div class="product_image_mobile">
+                        <div class="main_img">
+                            <img src="../images/product_main_phone.png" alt="phone">
+                        </div>
+                        <div class="other_img">
+                            <form name="img">
+                                <input type="radio" name="img" id="img_m" checked>
+                                <label for="img_m">
+                                    <img src="../images/product_other_phone.png" alt="">
+                                </label>
+                                <input type="radio" name="img" id="img1_m">
+                                <label for="img1_m">
+                                    <img src="../images/product_other_phone.png" alt="">
+                                </label><input type="radio" name="img" id="img2_m">
+                                <label for="img2_m">
+                                    <img src="../images/product_other_phone.png" alt="">
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="trade_in_toggle">
+                        <div class="dropdown-container">
+                            <div>
+                                <button aria-expanded="false" aria-haspopup="true" class="menu-button" id="menu-button"
+                                        type="button">
+                                    <span id="selected-option-text"><span class="h5">Выбрать....</span></span>
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.5 9.15955L12.5 15.1595L18.5 9.15955" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div aria-labelledby="menu-button" aria-orientation="vertical" class="dropdown-menu hidden"
+                                 id="dropdown-menu"
+                                 role="menu" tabindex="-1">
+                                <div class="menu-items" role="none">
+                                    <button class="menu-item" data-value="iPhone 13" id="menu-item-0"
+                                            role="menuitem" tabindex="-1"
+                                            type="button">
+                                        <span class="h6">iPhone 13</span>
+                                    </button>
+                                    <button class="menu-item" data-value="iPhone 14" id="menu-item-1"
+                                            role="menuitem" tabindex="-1"
+                                            type="button">
+                                        <span class="h6">iPhone 14</span>
+                                    </button>
+                                    <button class="menu-item" data-value="iPhone 15" id="menu-item-2"
+                                            role="menuitem" tabindex="-1"
+                                            type="button">
+                                        <span class="h6">iPhone 15</span>
+                                    </button>
+                                    <button class="menu-item" data-value="iPhone 16" id="menu-item-3"
+                                            role="menuitem" tabindex="-1"
+                                            type="button">
+                                        <span class="h6">iPhone 16</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="h5">600 руб.</span>
+                        <div class="switch">
+                            <span class="h5">Учитывать стоимость</span>
+                            <input type="checkbox">
+                        </div>
+                    </div>
+                    <div class="all_ready_have_iphone">
+                        <div class="all_ready_have_iphone_inner">
+                            <div class="head_all_ready_have_iphone">У вас уже есть яблоко?</div>
+                            <div class="text_all_ready_have_iphone text_s">
+                                Рассчитайте стоимость своего устройства чтобы видеть цены с учетом скидки
+                            </div>
+                        </div>
+                        <button class="btn_all_ready_have_iphone" type="submit"><span class="h5">Рассчитать стоимость онлайн</span>
+                        </button>
+                    </div>
+                    <div class="questions">
+                        <div class="how_work_resty_subscription">
+                            <button class="btn_video_questions" type="submit">
+                                <img class="play_img" src="../icons/play-circle.svg" alt="">
+                            </button>
+                            <div class="text_questions">
+                                <div class="txt"><span class="h5">Как работает Resty?</span></div>
+                                <div class="video_time_questions text_m">Видео 00:50 сек</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filters">
+                        <div class="memory">
+                            <span class="h5">Объем памяти</span>
+                            <form name="memory">
+                                <div class="memory_inner">
+                                    <input type="radio" name="memory" id="64" checked>
+                                    <label for="64">
+                                        <div class="info"><span class="h5">64 Гб</span></div>
+                                        <div class="cost_difference">
+                                            <img src="../icons/done.svg" alt="">
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="memory" id="128">
+                                    <label for="128">
+                                        <div class="info"><span class="h5">128 Гб</span></div>
+                                        <div class="cost_difference text_sm text_gray_3">
+                                            +200 руб.
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="memory" id="256" disabled>
+                                    <label for="256">
+                                        <div class="info"><span class="h5">256 Гб</span></div>
+                                        <div class="cost_difference text_sm text_gray_3">
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="memory" id="512">
+                                    <label for="512">
+                                        <div class="info"><span class="h5">512 Гб</span></div>
+                                        <div class="cost_difference text_sm text_gray_3">
+                                            +400 руб.
+                                        </div>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="state">
+                            <span class="h5">Состояние</span>
+                            <form name="state">
+                                <div class="state_inner">
+                                    <input type="radio" name="state" id="new">
+                                    <label for="new">
+                                        <div class="info"><span class="h5">Новый</span></div>
+                                        <div class="cost_difference text_sm text_gray_3">
+                                            +200 руб.
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="state" id="best">
+                                    <label for="best">
+                                        <div class="info"><span class="h5">Отличный</span></div>
+                                        <div class="cost_difference text_sm text_gray_3">
+                                            -100 руб.
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="state" id="good" checked>
+                                    <label for="good">
+                                        <div class="info"><span class="h5">Хорошо</span></div>
+                                        <div class="cost_difference">
+                                            <img src="../icons/done.svg" alt="">
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="state" id="not_bad" disabled>
+                                    <label for="not_bad">
+                                        <div class="info"><span class="h5">Приемлемо</span></div>
+                                        <div class="cost_difference text_sm text_gray_3">
+                                        </div>
+                                    </label>
+                                </div>
+                            </form>
+                            <div class="note text_sm">Оригинальный аккумулятор</div>
+                        </div>
+                        <div class="battery">
+                            <span class="h5">Аккумулятор</span>
+                            <form name="battery">
+                                <input type="radio" name="battery" id="new_battery" checked>
+                                <label for="new_battery">
+                                    <div class="info"><span class="h5">Стандартный</span></div>
+                                    <div class="cost_difference">
+                                        <img src="../icons/done.svg" alt="">
+                                    </div>
+                                </label>
+                                <input type="radio" name="battery" id="excellent">
+                                <label for="excellent">
+                                    <div class="info"><span class="h5">Новый</span></div>
+                                    <div class="cost_difference text_sm text_gray_3">
+                                        +200 руб.
+                                    </div>
+                                </label>
+                            </form>
+                        </div>
+                        <div class="color">
+                            <span class="h5">Цвет</span>
+                            <form name="color">
+                                <div class="color_inner">
+                                    <input type="radio" name="color" id="black" checked>
+                                    <label for="black">
+                                        <div class="black_color">
+                                        </div>
+                                        <div class="cost_difference">
+                                            <img class="done" src="../icons/done.svg" alt="">
+                                        </div>
+                                    </label>
+                                    <label for="red">
+                                    <input type="radio" name="color" id="red" disabled>
+                                        <div class="red_color"></div>
+                                        <div class="cost_difference text_sm text_gray_3">
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="color" id="blue">
+                                    <label for="blue">
+                                        <div class="blue_color"></div>
+                                        <div class="cost_difference text_sm text_gray_3">
+                                            +10 руб.
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="color" id="white">
+                                    <label for="white">
+                                        <div class="white_color"></div>
+                                        <div class="cost_difference text_sm text_gray_3">
+                                            +10 руб.
+                                        </div>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="choice">
+                        <span class="h5">Ваш выбор</span>
+                        <div class="your_choice_border">
+                            <div class="your_choice">
+                                <div class="choice_info">
+                                    <h3>iPhone X</h3>
+                                    <div class="credit">
+                                        <div class="credit_price">
+                                            <span class="h4">90 руб. в месяц</span>
+                                        </div>
+                                        <div class="credit_term text_white">
+                                            <span class="h6">11 месяцев</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="choice_characteristics">
+                                    <div class="choice_memory">
+                                        <span class="h5">Объем памяти</span>
+                                        <div class="parameter"><span class="h6">64 Гб</span></div>
+                                    </div>
+                                    <div class="choice_state">
+                                        <span class="h5">Состояние</span>
+                                        <div class="parameter"><span class="h6">Хорошо</span></div>
+                                    </div>
+                                    <div class="choice_battery">
+                                        <span class="h5">Аккумулятор</span>
+                                        <div class="parameter"><span class="h6">Новый</span></div>
+                                    </div>
+                                    <div class="choice_color">
+                                        <span class="h5">Цвет</span>
+                                        <div class="parameter"><span class="h6">Черный</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add_cart">
+                                <button class="btn_add_cart text_white" type="submit"><span class="h5">Добавить в корзину</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popular_goods"></div>
+    <div id="promo"></div>
+    <div id="accessories"></div>
+    <div id="how_resty_work"></div>
+</main>
+
+<footer id="footer"></footer>
+<script src="/script.js"></script>
+</body>
+</html>
