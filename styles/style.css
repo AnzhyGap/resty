@@ -1138,6 +1138,7 @@ header {
         background: var(--main-color-Grey1);
         border: none;
         width: fit-content;
+        -webkit-text-fill-color: var(--main-color-Black);
     }
 }
 
