@@ -4,7 +4,7 @@
 // });
 
 
-fetch('modules/header.html')
+fetch('/modules/header.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('header').innerHTML = data;
@@ -15,47 +15,47 @@ fetch('modules/header.html')
             document.body.classList.toggle('no-scroll')
         });
     });
-fetch('modules/footer.html')
+fetch('/modules/footer.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('footer').innerHTML = data;
     });
-fetch('modules/popular_goods.html')
+fetch('/modules/popular_goods.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('popular_goods').innerHTML = data;
     });
-fetch('modules/change_goods.html')
+fetch('/modules/change_goods.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('change_goods').innerHTML = data;
     });
-fetch('modules/how_resty_work.html')
+fetch('/modules/how_resty_work.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('how_resty_work').innerHTML = data;
     });
-fetch('modules/accessories.html')
+fetch('/modules/accessories.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('accessories').innerHTML = data;
     });
-fetch('modules/promo.html')
+fetch('/modules/promo.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('promo').innerHTML = data;
     });
-fetch('modules/benefits.html')
+fetch('/modules/benefits.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('benefits').innerHTML = data;
     });
-fetch('modules/reviews.html')
+fetch('/modules/reviews.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('reviews').innerHTML = data;
     });
-fetch('modules/breadcrumbs.html')
+fetch('/modules/breadcrumbs.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('breadcrumbs').innerHTML = data;
