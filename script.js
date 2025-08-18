@@ -100,7 +100,7 @@ document.addEventListener('click', (event) => {
 document.addEventListener('DOMContentLoaded', function() {
     // Проверяем, есть ли элемент с ошибкой 404 (можно настроить под вашу CMS или фреймворк)
     if (document.body.classList.contains('error404') ||
-        window.location.pathname.split('/').pop() === '404.html') {
+        window.location.pathname.split('/').pop() === 'pages/404.html') {
         // Если уже на странице 404, ничего не делаем
         return;
     }
