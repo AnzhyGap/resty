@@ -97,35 +97,11 @@ document.addEventListener('click', (event) => {
 })
 
 /**********************check page found***************************************/
-document.addEventListener('DOMContentLoaded', function() {
-    // Проверяем, есть ли элемент с ошибкой 404 (можно настроить под вашу CMS или фреймворк)
-    if (document.body.classList.contains('error404') ||
-        window.location.pathname.split('/').pop() === 'pages/404.html') {
-        // Если уже на странице 404, ничего не делаем
-        return;
-    }
-
-    // Альтернативный способ: проверка через fetch
-    checkPageExists(window.location.pathname)
-        .then(exists => {
-            if (!exists) {
-                window.location.href = 'pages/404.html';
-            }
-        })
-        .catch(() => {
-            console.log('Error checking page existence');
-        });
-});
-
-// Функция для проверки существования страницы
-async function checkPageExists(url) {
-    try {
-        const response = await fetch(url, {
-            method: 'HEAD',
-            cache: 'no-cache'
-        });
-        return response.ok;
-    } catch (error) {
-        return false;
-    }
-}
+// // Проверяем, существует ли текущий URL (HEAD-запрос)
+// fetch(window.location.pathname, { method: 'HEAD' })
+//     .then((res) => {
+//         if (!res.ok) window.location.href = "/pages/404.html";
+//     })
+//     .catch(() => {
+//         window.location.href = "/pages/404.html"; // Если ошибка сети
+//     });
